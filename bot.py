@@ -16,7 +16,7 @@ BOT_TOKEN = os.environ.get('BOT_TOKEN', '8013327854:AAGp-1yKhiMt8lKTxC5Ex2VblsE4
 GEMINI_API_KEY = os.environ.get('GEMINI_API_KEY', 'AIzaSyDmlL1IYHGIPzUJZl-P8MRriXHtwU_Z8bo')
 
 # ID администраторов (через запятую можно добавить несколько)
-ADMIN_IDS = os.environ.get('509067967', '1777308158')
+ADMIN_IDS = os.environ.get('ADMIN_IDS', '1777308158''509067967')
 ADMIN_LIST = [int(id.strip()) for id in ADMIN_IDS.split(',') if id.strip()]
 
 # База данных
@@ -588,3 +588,4 @@ def main():
 if __name__ == '__main__':
 
     main()
+
